@@ -39,7 +39,7 @@ The CTX-User-Access-Management module requires the following Cortex OCIs:
 ### Files
 The CTX-User-Access-Management module requires the following files:
 * [CTX-User-Access-Management Studio Package](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/releases/download/v1.0/CTX-User-Access-Management.studiopkg)
-* [CTX-UserAccessManagement Database create script](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/releases/download/v1.0/CTX-User-Access-Management.studiopkg)
+* [CTX-UserAccessManagement Database create script](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/releases/download/v1.0/Cortex-UserAccessManagement-Install.sql)
 
 ### Other Requisites
 The CTX-User-Access-Management module has no additional requirements.
