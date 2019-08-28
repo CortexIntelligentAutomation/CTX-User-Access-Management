@@ -33,21 +33,21 @@ The CTX-User-Access-Management module requires the following Cortex OCIs:
 	* Cortex Active Directory OCI 
 * If to be used with Cortex Vista security integration:
 	* Cortex PowerShell OCI
-	* [CTX-Vista-User-Management module]()
+	* [CTX-Vista-User-Management module](https://github.com/CortexIntelligentAutomation/CTX-Vista-User-Management)
 
 
 ### Files
 The CTX-User-Access-Management module requires the following files:
-* [CTX-User-Access-Management Studio Package]()
+* [CTX-User-Access-Management Studio Package](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/releases/download/v1.1/CTX-User-Access-Management.studiopkg)
 
 ### Other Requisites
 The CTX-User-Access-Management module has no additional requirements.
 
 ## Installation
-Details of how the module should be imported into Cortex can be found in the [Deployment Plan](#Installation).
+Details of how the module should be imported into Cortex can be found in the [Deployment Plan](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/blob/master/CTX-User-Access-Management%20-%20Deployment%20Plan.pdf).
 
 ## How to use
-A detailed User Guide has been provided with instructions on how to use the module, available [here](). Configuration of each flow/subtask's inputs and outputs are detailed in notes on the flow/subtask workspace.
+A detailed User Guide has been provided with instructions on how to use the module, available [here](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/blob/master/CTX-User-Access-Management%20-%20User%20Guide.pdf). Configuration of each flow/subtask's inputs and outputs are detailed in notes on the flow/subtask workspace.
 
 ## How you can contribute
 Unfortunately, we cannot offer pull requests at this time or accept any improvements.
