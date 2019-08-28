@@ -1,4 +1,4 @@
-<a href="https://www.cortex-ia.co.uk/" target="_blank"><img src="https://github.com/CortexIATest/CTXImages/blob/master/Cortex-350-120.png" alt="Welcome to Cortex!" width="350" height="120" border="0"></a>
+﻿<a href="https://www.cortex-ia.co.uk/" target="_blank"><img src="https://github.com/CortexIATest/CTXImages/blob/master/Cortex-350-120.png" alt="Welcome to Cortex!" width="350" height="120" border="0"></a>
 
 # CTX-User-Access-Management
 The User Access Management module should be used as the single authority to manage authentication and authorisation within a system. This module contains the Cortex flows and subtasks to perform authentication and authorisation. 
@@ -33,22 +33,21 @@ The CTX-User-Access-Management module requires the following Cortex OCIs:
 	* Cortex Active Directory OCI 
 * If to be used with Cortex Vista security integration:
 	* Cortex PowerShell OCI
-	* [CTX-Vista-User-Management module](https://github.com/CortexIntelligentAutomation/CTX-Vista-User-Management)
+	* [CTX-Vista-User-Management module]()
 
 
 ### Files
 The CTX-User-Access-Management module requires the following files:
-* [CTX-User-Access-Management Studio Package](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/releases/download/v1.0/CTX-User-Access-Management.studiopkg)
-* [CTX-UserAccessManagement Database create script](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/releases/download/v1.0/Cortex-UserAccessManagement-Install.sql)
+* [CTX-User-Access-Management Studio Package]()
 
 ### Other Requisites
 The CTX-User-Access-Management module has no additional requirements.
 
 ## Installation
-Details of how the module should be imported into Cortex can be found in the [Deployment Plan](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/blob/master/CTX-User-Access-Management%20-%20Deployment%20Plan.pdf).
+Details of how the module should be imported into Cortex can be found in the [Deployment Plan](#Installation).
 
 ## How to use
-A detailed User Guide has been provided with instructions on how to use the module, available [here](https://github.com/CortexIntelligentAutomation/CTX-User-Access-Management/blob/master/CTX-User-Access-Management%20-%20User%20Guide.pdf ). Configuration of each flow/subtask's inputs and outputs are detailed in notes on the flow/subtask workspace.
+A detailed User Guide has been provided with instructions on how to use the module, available [here](). Configuration of each flow/subtask's inputs and outputs are detailed in notes on the flow/subtask workspace.
 
 ## How you can contribute
 Unfortunately, we cannot offer pull requests at this time or accept any improvements.
@@ -58,11 +57,12 @@ The CTX-User-Access-Management module has the following versions, starting with 
 
 Version | Release | Functionality | Notes
 ------------ | ------------- | ----------- | -----------
-v1.0 | 04/01/2019 | UAM-Authenticate-User | Created
-v1.0 | 04/01/2019 | UAM-End-User-Session | Created
-v1.0 | 04/01/2019 | UAM-SessionManagement | Created
-v1.0 | 04/01/2019 | UAM-Create-User-Session | Created
-v1.0 | 04/01/2019 | UAM-Check-Authorisation-Token  | Created
+v1.1 | 28/01/2019 | Authenticate User | Updated: A bug has been fixed that caused the User Active Directory groups to be all the Domain groups instead of only the groups the User belonged to.
+v1.0 | 04/01/2019 | Authenticate User | Created
+v1.0 | 04/01/2019 | End user session | Created
+v1.0 | 04/01/2019 | Session Management| Created
+v1.0 | 04/01/2019 | Create user session | Created
+v1.0 | 04/01/2019 | Check authorisation token | Created
 
 ## Licensing
 All functionality within this module is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
